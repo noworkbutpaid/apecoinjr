@@ -1,8 +1,8 @@
 body {
     position:relative;
-    font-size:16px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#ffc800;
+    font: size 14px;
+    font-family:share tech;
+    color:#ffffff;
     max-width:1920px;
     margin:0 auto!important 
 }
@@ -175,13 +175,13 @@ ul{
    display:inline-flex;
    align-items:center;
    justify-content:center;
-   color:#fff;
+   color: #000000;
    font-family:proxima nova th;
    font-size:16px;
    font-weight:700;
    padding:5px 15px;
    text-align:center;
-   background-color:#00a9ff;
+   background-color:#f9d52c;
    transition:background-color .5s;
    height:50px
 }
@@ -215,7 +215,7 @@ ul{
    width:0;
    height:0;
    border-top:42px solid transparent;
-   border-right:15px solid #00a9ff;
+   border-right:15px solid #f9d52c;
    border-bottom:14px solid transparent
 }
 .box-btn-main .btn-main:after{
@@ -223,17 +223,17 @@ ul{
    width:0;
    height:0;
    border-top:14px solid transparent;
-   border-left:15px solid #00a9ff;
+   border-left:15px solid #f9d52c;
    border-bottom:42px solid transparent
 }
 .box-btn-main .btn-main:hover{
-   background-color:#0df
+   background-color:#f1da70
 }
 .box-btn-main .btn-main:hover:before{
-   border-right:15px solid #0df
+   border-right:15px solid #f1da70
 }
 .box-btn-main .btn-main:hover:after{
-   border-left:15px solid #0df
+   border-left:15px solid #f1da70
 }
 .box-btn-main .btn-main.btn-yellow{
    background-color:#fcfe15;
@@ -327,7 +327,7 @@ ul{
    }
 }
 .owl-carousel .owl-dots .owl-dot.active{
-   background-color:#ff4af0
+   background-color:#fcfe15
 }
 .owl-carousel .owl-nav{
    position:relative
@@ -391,6 +391,7 @@ body:not(.fp-viewing-about):not(.fp-viewing-home) .header{
    background-color:rgba(30,18,49,.8);
    padding:5px 30px
 }
+
 @media only screen and (max-width:991px){
    body:not(.fp-viewing-about):not(.fp-viewing-home) .header{
        padding:10px 30px
@@ -548,8 +549,8 @@ body.fixed .header{
    }
 }
 .header .menu-fullpage ul li.active a{
-   color:#00a9ff;
-   border:2px solid #00a9ff;
+   color:#f9d52c;
+   border:2px solid #f9d52c;
    border-radius:3px;
    transform:skewX(-6deg)
 }
@@ -584,7 +585,7 @@ body.fixed .header{
    display:block;
    text-align:center;
    font-size:15px;
-   color:#fff;
+   color:#f9d52c;
    padding:5px 15px
 }
 @media only screen and (max-width:991px){
@@ -594,7 +595,7 @@ body.fixed .header{
    }
 }
 .header .menu-fullpage ul li a:hover{
-   color:#00a9ff
+   color:white
 }
 .header .menu-fullpage ul li a span{
    display:block
@@ -911,8 +912,13 @@ body.fixed .header{
 }
 .about-section{
    position:relative;
-   background-color:#412b5b
+   background-color:#412b5b;
+   background-image: url('../images/bg2.jpg');
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
+
 @media only screen and (max-width:991px){
    .about-section{
        padding-bottom:0
@@ -939,9 +945,20 @@ body.fixed .header{
    }
 }
 .about-section .box-section .box-mp4 video{
-   object-fit:cover;
-   width:100%;
-   height:100%
+   /* object-fit: contain;
+   width: 990px;
+   height: 800px;
+   float: right; */
+
+   position: relative;
+   top: 15px;
+   padding-top: 40px;
+   padding-left:80px;
+   padding-right:40px;
+   width:67%;
+   height: 800px;
+   float: right;
+
 }
 .about-section .box-smoke{
    position:absolute;
@@ -1008,13 +1025,13 @@ body.fixed .header{
 .about-section .content-about .box-info{
    position:relative;
    padding-top:40px;
-   padding-left:120px;
+   padding-left:100px;
    padding-right:40px;
    width:40%
 }
 @media only screen and (max-width:1500px){
    .about-section .content-about .box-info{
-       padding-left:80px;
+       padding-left:60px;
        padding-right:30px
    }
 }
@@ -1033,7 +1050,7 @@ body.fixed .header{
 }
 .about-section .content-about .box-info .box-title-theta{
    position:relative;
-   width:max-content
+   width:100%;
 }
 @media only screen and (max-width:991px){
    .about-section .content-about .box-info .box-title-theta{
@@ -1092,7 +1109,7 @@ body.fixed .header{
    animation:typing .5s steps(40,end)
 }
 .about-section .content-about .box-info .box-title-theta .title-theta p{
-   color:#993716;
+   color:#4466ff;
    line-height:.7
 }
 .about-section .content-about .box-info .box-title-theta .box-effect{
@@ -2393,8 +2410,13 @@ body.fixed .header{
    }
 }
 .roadmap-section{
-   background-color:#3a264f;
-   position:relative
+   position:relative;
+   background-color:#412b5b;
+   background-image: url('images/roadmap/junglebackground1.png');
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
 }
 @media only screen and (max-width:991px){
    .roadmap-section{
@@ -2408,8 +2430,6 @@ body.fixed .header{
    left:0;
    width:40%;
    height:85%;
-   background-image:url(images/roadmap/img_ThetaCoin.png);
-   background-repeat:no-repeat;
    pointer-events:none;
    background-size:contain
 }
@@ -2440,9 +2460,7 @@ body.fixed .header{
    right:0;
    width:100%;
    height:100%;
-   background-image:url(images/roadmap/img_backgroundProgress.png);
-   background-repeat:no-repeat;
-   background-size:cover
+
 }
 .roadmap-section .bg-process .box-process{
    position:relative;
@@ -2492,7 +2510,7 @@ body.fixed .header{
    top:60px;
    right:-40px;
    transform:rotate(-90deg);
-   color:#ff63fa
+   color: #fcfe15;
 }
 @media only screen and (max-width:991px){
    .roadmap-section .bg-process .box-process .to-the-moon span{
@@ -2537,7 +2555,7 @@ body.fixed .header{
    left:23px;
    height:100%;
    width:5px;
-   background:linear-gradient(to bottom,#fff,transparent);
+   background:linear-gradient(to bottom,#fcfe15,transparent);
    transform:skewY(17deg)
 }
 @media only screen and (max-width:1500px){
@@ -2577,7 +2595,7 @@ body.fixed .header{
 }
 .roadmap-section .bg-process .box-process .list-timeline .item .alpha{
    font-family:proxima nova th;
-   color:#e44fff;
+   color:#fcfe15;
    font-weight:700;
    font-size:18px
 }
@@ -2615,7 +2633,7 @@ body.fixed .header{
    display:flex;
    align-items:center;
    margin-bottom:2px;
-   font-size:16px
+   font-size:12px;
 }
 @media only screen and (max-width:1500px){
    .roadmap-section .bg-process .box-process .list-item .item .info{
@@ -2642,7 +2660,7 @@ body.fixed .header{
    left:19px;
    width:6px;
    height:calc(100% - 82px);
-   background-color:#f2f2f2;
+   background-color:#fcfe15;
    margin:0 auto
 }
 @media only screen and (max-width:767px){

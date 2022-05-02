@@ -124,7 +124,7 @@
                 r = t.n(s),
                 a = t("0e326f80368fd0b1333e"),
                 i = t.n(a)()(r());
-            i.push([e.id, "/* stylelint-disable */\n.YaWXLS3C5ZncWBG1bMQB {\n  display: grid;\n  gap: 10px;\n}\n.YaWXLS3C5ZncWBG1bMQB .zjf3V8bMhE3z1fvrRARn {\n  font-size: 14px;\n}\n\n.sPtC0LnMjRGFLLXwmNB_ {\n  background: #6728cd;\n  box-shadow: 0px 0px 9px rgba(63, 0, 143, 0.87);\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 18px;\n  width: 100%;\n  border: none;\n  padding: 10px;\n  margin: auto;\n  margin-top: 10px;\n  cursor: pointer;\n  color: white !important;\n  display: flex;\n  justify-content: center;\n}\n\n@media (min-width: 1024px) and (max-width: 1439px) {\n  .YaWXLS3C5ZncWBG1bMQB {\n    font-size: 12px;\n    grid-template-columns: 1fr 1fr;\n  }\n}\n@media (max-width: 991px) {\n  .sPtC0LnMjRGFLLXwmNB_ {\n    max-width: 460px;\n  }\n}", "", {
+            i.push([e.id, "/* stylelint-disable */\n.YaWXLS3C5ZncWBG1bMQB {\n  display: grid;\n  gap: 10px;\n}\n.YaWXLS3C5ZncWBG1bMQB .zjf3V8bMhE3z1fvrRARn {\n  font-size: 14px;\n  color: #f9d52c!important;\n  font-weight: bold;\n}\n\n.sPtC0LnMjRGFLLXwmNB_ {\n  background: #f9d52c;\n  box-shadow: 0px 0px 9px rgba(63, 0, 143, 0.87);\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 18px;\n  width: 100%;\n  border: none;\n  padding: 10px;\n  margin: auto;\n  margin-top: 10px;\n  cursor: pointer;\n  color: black !important;\n  display: flex;\n  justify-content: center;\n}\n\n@media (min-width: 1024px) and (max-width: 1439px) {\n  .YaWXLS3C5ZncWBG1bMQB {\n    font-size: 12px;\n    grid-template-columns: 1fr 1fr;\n  }\n}\n@media (max-width: 991px) {\n  .sPtC0LnMjRGFLLXwmNB_ {\n    max-width: 460px;\n  }\n}", "", {
                 version: 3,
                 sources: ["webpack://./src/utils/breakpoints.scss", "webpack://./src/Components/ContractAddress/styles.module.scss"],
                 names: [],
@@ -233,9 +233,9 @@
             var s = t("8af190b70a6bc55c6f1b"),
                 r = t("63f14ac74ce296f77f4d");
             const a = {
-                    THG: {
-                        BEP20: "0x1f7b373ff8e8e5860bfcc3ce8c773be0677a1cbf"
-                    },
+                     APEJR: {
+                         BEP20: "0x1f7b373ff8e8e5860bfcc3ce8c773be0677a1cbf"
+                     },
 
                 },
                 i = "https://play.google.com/store/apps/details?id=com.wolffun.thetanarena",
@@ -281,7 +281,7 @@
             }, s.createElement("span", null, s.createElement("img", {
                 src: "images/about/icon_pc.svg",
                 alt: ""
-            }), " PC"))))))), null), document.getElementById("download-theta"));
+            }), " WEB"))))))), null), document.getElementById("download-theta"));
             var c = t("745a70c961e0aad60670"),
                 d = t.n(c),
                 p = t("0b68a4be84b48b4534b2"),
@@ -299,7 +299,7 @@
             v.styleTagTransform = g(), v.setAttributes = $(), v.insert = A().bind(null, "head"), v.domAPI = u(), v.insertStyleElement = b();
             d()(E.default, v);
             const _ = E.default && E.default.locals ? E.default.locals : void 0;
-            r.render(s.createElement((() => s.createElement(s.Fragment, null, "ApeCoin Jr is a blockchain based NFT gaming platform and marketplace.", s.createElement("br", null), " Inspired by ApeCoin and other crypto NFT and gaming narratives, ApeCoin Jr will combine and synergize them both to build an attractive platform The game allows every player to collect coins and complete different stages to earn. Furthermore, ApeCoin Jr will also include an NFT marketplace, where players can sell their characters, weapons and upgraded equipment for crypto. Some of the items can even be redeemed for real world replicas. ", s.createElement("br", null), s.createElement("span", {
+            r.render(s.createElement((() => s.createElement(s.Fragment, null, "ApeCoinVerse is a blockchain based NFT gaming platform and marketplace.", s.createElement("br", null), " Inspired by ApeCoin and other crypto NFT and gaming narratives, ApeCoinVerse will combine and synergize them both to build an attractive platform The game allows every player to collect coins and complete different stages to earn. Furthermore, ApeCoinVerse will also include an NFT marketplace, where players can sell their characters, weapons and upgraded equipment for crypto. Some of the items can even be redeemed for real world replicas. ", s.createElement("br", null), s.createElement("span", {
                 className: _.hashtagTheta
             }, ))), null), document.getElementById("desc-theta"));
             var y = t("c624f5803f7be48eca83"),
@@ -374,7 +374,7 @@
                     addressSet: n
                 }) => s.createElement("div", null, s.createElement("span", {
                     className: w.contractLabel
-                }, "$", "ApeJR", " Contract Address"), s.createElement("table", {
+                }, "$", "APEJR", " CONTRACT ADDRESS"), s.createElement("table", {
                     className: "tg"
                 }, s.createElement("tbody", null, Object.entries(n).map((([n, t]) => s.createElement(G, {
                     key: `${e}-${n}`,
@@ -389,7 +389,7 @@
                 addressSet: n
             }))), s.createElement("a", {
                 className: w.trade,
-                href: "https://pancakeswap.finance/swap",
+                href: "https://pancakeswap.finance/swap?outputCurrency=0x1f7b373ff8e8e5860bfcc3ce8c773be0677a1cbf",
                 target: "_blank",
                 rel: "noreferrer"
             }, "Trade now"))), null), document.getElementById("contract-address"));
@@ -458,7 +458,7 @@
                 const [e, n] = (0, s.useState)("");
                 return s.useEffect((() => {
                     const e = () => K(void 0, void 0, void 0, (function*() {
-                        const e = yield fetch("https://data.thetanarena.com/thetan/v1/user/totalPlayers");
+                        const e = yield //fetch("https://data.thetanarena.com/thetan/v1/user/totalPlayers");
                         if (e) {
                             const t = yield e.json();
                             n(function(e) {
@@ -480,7 +480,7 @@
                     }
                 }), []), s.createElement(s.Fragment, null, s.createElement("span", null, "NOW AVAILABLE ON"), s.createElement("p", {
                     id: "player-number"
-                }, ))
+                }, e))
             }), null), document.getElementById("total-player"))
         }
     },
