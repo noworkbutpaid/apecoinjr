@@ -951,13 +951,14 @@ body.fixed .header{
    float: right; */
 
    position: relative;
-   top: 15px;
-   padding-top: 40px;
-   padding-left:80px;
-   padding-right:40px;
-   width:67%;
-   height: 800px;
+   padding-top: 10px;
+   padding-left:110px;
+   padding-right:10px;
+   padding-bottom: 380px;
+   width:69%;
+   height: 1150px;
    float: right;
+   
 
 }
 .about-section .box-smoke{
