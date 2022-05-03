@@ -2746,19 +2746,32 @@ body.fixed .header{
    font-weight:700;
    font-size:22px;
    line-height:1;
-   margin-bottom:15px
+   margin-bottom:15px;
+   color:#fcfe15;
 }
 @media only screen and (max-width:767px){
    .roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .time{
        font-size:20px
    }
 }
+
 .roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .alpha{
    font-family:proxima nova th;
-   color:#e44fff;
+   color:#fcfe15;
    font-weight:700;
    font-size:18px;
    margin-left:15px
+}
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .alpha{
+   font-family:proxima nova th;
+   color:#fcfe15;
+   font-weight:700;
+   font-size:18px;
+   margin-left:15px
+}
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .monkeh{
+width: 270px;
+height: 300px;
 }
 @media only screen and (max-width:575px){
    .roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .alpha{
