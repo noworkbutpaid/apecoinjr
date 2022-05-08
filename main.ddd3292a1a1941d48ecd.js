@@ -233,9 +233,9 @@
             var s = t("8af190b70a6bc55c6f1b"),
                 r = t("63f14ac74ce296f77f4d");
             const a = {
-                     APEJR: {
-                         BEP20: "0x1f7b373ff8e8e5860bfcc3ce8c773be0677a1cbf"
-                     },
+                    //  APEJR: {
+                    //      BEP20: "0x1f7b373ff8e8e5860bfcc3ce8c773be0677a1cbf"
+                    //  },
 
                 },
                 i = "https://play.google.com/store/apps/details?id=com.wolffun.thetanarena",
@@ -389,10 +389,10 @@
                 addressSet: n
             }))), s.createElement("a", {
                 className: w.trade,
-                href: "https://pancakeswap.finance/swap?outputCurrency=0x1f7b373ff8e8e5860bfcc3ce8c773be0677a1cbf",
+                // href: "#",
                 target: "_blank",
                 rel: "noreferrer"
-            }, "Trade now"))), null), document.getElementById("contract-address"));
+            }, "TO BE ANNOUNCED"))), null), document.getElementById("contract-address"));
             var P = t("a996b3d008bba8f6a34e"),
                 V = {};
             V.styleTagTransform = g(), V.setAttributes = $(), V.insert = A().bind(null, "head"), V.domAPI = u(), V.insertStyleElement = b();

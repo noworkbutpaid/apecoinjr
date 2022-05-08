@@ -477,7 +477,7 @@ body.fixed .header{
    .fullpage{
        padding-top:60px
    }
-}
+}none
 .fp-viewing-about .header{
    display:flex
 }
@@ -942,6 +942,10 @@ body.fixed .header{
        position:relative;
        left:-45%;
        width:145%
+   }
+   .box-mp4
+   {
+      display: none;
    }
 }
 .about-section .box-section .box-mp4 video{
