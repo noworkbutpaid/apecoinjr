@@ -913,7 +913,7 @@ body.fixed .header{
 .about-section{
    position:relative;
    background-color:#412b5b;
-   background-image: url('../images/bg2.jpg');
+   background-image: url('bg2.jpg');
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
