@@ -875,7 +875,7 @@ body.fixed .header{
 }
 .box-1700{
    margin:0 auto;
-   padding:0 100px
+   padding:0 10px
 }
 @media only screen and (max-width:1500px){
    .box-1700{
